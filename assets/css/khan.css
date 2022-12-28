@@ -78,6 +78,9 @@
 .l-main{
     min-height: calc(100vh - 232px);
 }
+.min-h800{
+    min-height: 900px;
+}
 .itne-about-my:hover:before,
 .itne-about-my:hover:after {
     opacity: 1;
