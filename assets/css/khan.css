@@ -2,7 +2,7 @@
     margin-top: 5rem;
 }
 .minusm-mt-50{
-    margin-top: -50px;
+    margin-top: 50px;
 }
 .minusm-pt-0{
     padding-top: -0px !important;
@@ -29,6 +29,21 @@
     .about__container {
         /* grid-template-columns: repeat(3, 1fr); */
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .home__social-icon{
+        margin: 0px 10px;
+    }
+    .home__img {
+        position: relative;
+        bottom: 40px;
+    }
+    .home-mobil{
+        padding-top: 0px;
+        margin-top: 0px;
+        height: 90vh;
     }
 }
 .item1{
